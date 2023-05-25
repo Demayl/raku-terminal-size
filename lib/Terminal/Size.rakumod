@@ -1,4 +1,4 @@
-unit module Terminal::Size;
+unit module Terminal::Size:ver<1.0.1>:auth<github:demayl>;
 use NativeCall;
 
 # from termios.h
