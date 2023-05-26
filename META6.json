@@ -6,9 +6,10 @@
     "description" : "Raku library to getting the size of your terminal.",
     "tags"        : ["Terminal", "Size", "ioctl", "console", "term"],
     "provides": {
-        "Terminal::Size" : "lib/Terminal/Size.rakumod"
+        "Terminal::Size" : "lib/Terminal/Size.rakumod",
+        "winsize" : "lib/Terminal/Size.rakumod"
     },
-    "auth" : "github:demayl",
+    "auth" : "zef:demayl",
     "authors" : [
         "Denis Kanchev - demayl"
     ],
